@@ -35,4 +35,77 @@
  *
  * @return none
  */
+void print_statistics(unsigned char median, unsigned char mean, unsigned char maximum, unsigned char minimum );
+
+/**
+ * @brief <Print the array>
+ *
+ * <Add Extended Description Here>
+ *
+ * @param data[]	the array
+ * @param size		length of the array
+ *
+ * @return none
+ */
+void print_array(unsigned char data[], unsigned char size);
+
+/**
+ * @brief <Find median of the array>
+ *
+ * <Add Extended Description Here>
+ *
+ * @param data[]	the array
+ * @param size		length of the array
+ *
+ * @return median
+ */
+unsigned char find_median(unsigned char data[], unsigned char size);
+
+/**
+ * @brief <Find mean of the array>
+ *
+ * <Add Extended Description Here>
+ *
+ * @param data[]	the array
+ * @param size		length of the array
+ *
+ * @return mean
+ */
+unsigned char find_mean(unsigned char data[], unsigned char size);
+
+/**
+ * @brief <Find maximum of the array>
+ *
+ * <Add Extended Description Here>
+ *
+ * @param data[]	the array
+ * @param size		length of the array
+ *
+ * @return maximum
+ */
+unsigned char find_maximum(unsigned char data[], unsigned char size);
+
+/**
+ * @brief <Find minimum of the array>
+ *
+ * <Add Extended Description Here>
+ *
+ * @param data[]	the array
+ * @param size		length of the array
+ *
+ * @return minimum
+ */
+unsigned char find_minimum(unsigned char data[], unsigned char size);
+
+/**
+ * @brief <Sort descending of the array>
+ *
+ * <Add Extended Description Here>
+ *
+ * @param data[]	the array
+ * @param size		length of the array
+ *
+ * @return none
+ */
+void sort_array(unsigned char data[], unsigned char size);
 #endif /* __STATS_H__ */
